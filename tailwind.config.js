@@ -4,7 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        jakarta: ['Plus Jakarta Sans', 'sans-serif']
+      },
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #373e44 -100%, #191b1f)'
       }
     }
   },

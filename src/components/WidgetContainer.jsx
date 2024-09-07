@@ -7,7 +7,7 @@ function WidgetContainer({ children, type }) {
         type === 'first' ? 'rounded-sm' : 'rounded-xl'
       }`}
     >
-      <div className='h-[165px] flex flex-col justify-between absolute top-4 left-2'>
+      <div className='h-[165px] flex flex-col justify-between absolute top-4 left-3'>
         <span className='text-3xl text-transparent bg-gradient-to-tl from-[#4A4E54] to-[#A3ADBA] bg-clip-text'>
           <i className='fa-regular fa-circle-question'></i>
         </span>

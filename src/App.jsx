@@ -6,9 +6,9 @@ import WidgetContainer from './components/WidgetContainer'
 
 function App() {
   return (
-    <main className='w-100vw min-h-100vh flex items-center justify-center p-6'>
-      <div className='flex justify-between space-x-4 p-8'>
-        <div className='w-[836px] hidden md:block'></div>
+    <main className='min-h-[100vh] flex items-center justify-center bg-custom-gradient lg:px-6 py-6'>
+      <div className='w-full flex justify-center lg:justify-between lg:space-x-4 lg:px-8 py-8'>
+        <div className='w-full max-w-[836px] hidden lg:block'></div>
         <div className='flex flex-col justify-between items-center gap-4'>
           <WidgetContainer type={'first'}>
             <FirstWidget />
