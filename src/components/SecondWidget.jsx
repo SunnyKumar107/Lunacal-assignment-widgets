@@ -37,7 +37,7 @@ const SecondWidget = () => {
   return (
     <>
       <div className='w-[614px] flex items-center justify-between mx-auto'>
-        <div className='w-[149px] h-[62px] bg-[#171717] rounded-2xl text-white flex justify-center items-center font-poppins'>
+        <div className='w-[149px] h-[62px] bg-[#171717] rounded-[21px] text-white flex justify-center items-center font-poppins'>
           Gallery
         </div>
         <div className='flex items-center space-x-8'>

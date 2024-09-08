@@ -1,6 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #363c43;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 5px solid #363c43;
+  background-image: linear-gradient(
+    180deg,
+    hsl(180deg 0% 54%) 0%,
+    hsl(180deg 1% 51%) 11%,
+    hsl(195deg 2% 49%) 22%,
+    hsl(192deg 2% 46%) 33%,
+    hsl(190deg 3% 44%) 44%,
+    hsl(197deg 3% 41%) 56%,
+    hsl(203deg 4% 38%) 67%,
+    hsl(207deg 5% 36%) 78%,
+    hsl(213deg 5% 34%) 89%,
+    hsl(216deg 6% 31%) 100%
+  );
+  border-radius: 0.5em;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
